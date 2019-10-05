@@ -15,9 +15,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+package pl.tlinkowski.neatj.core.util;
 
-modularity.mixedJavaRelease(8)
+import lombok.experimental.UtilityClass;
 
-superpom {
-  useLombok = true
+/**
+ * @author Tomasz Linkowski
+ */
+@UtilityClass
+public final class NeatComparators {
+
 }

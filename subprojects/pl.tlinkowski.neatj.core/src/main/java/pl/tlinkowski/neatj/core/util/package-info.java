@@ -16,8 +16,10 @@
  * limitations under the License.
  */
 
-modularity.mixedJavaRelease(8)
+/**
+ * @author Tomasz Linkowski
+ */
+@NonNullPackage
+package pl.tlinkowski.neatj.core.util;
 
-superpom {
-  useLombok = true
-}
+import pl.tlinkowski.annotation.basic.NonNullPackage;

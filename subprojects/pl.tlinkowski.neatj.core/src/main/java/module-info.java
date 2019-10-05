@@ -16,8 +16,12 @@
  * limitations under the License.
  */
 
-modularity.mixedJavaRelease(8)
+/**
+ * @author Tomasz Linkowski
+ */
+module pl.tlinkowski.neatj.core {
+  exports pl.tlinkowski.neatj.core.util;
 
-superpom {
-  useLombok = true
+  requires static pl.tlinkowski.annotation.basic;
+  requires static lombok;
 }
